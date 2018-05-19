@@ -272,10 +272,52 @@ body {
     }
 }
 
+.huckfinn_container {
+    background: rgba(0, 0, 0, 0.79);
+    padding: 40px 20px;
+    margin-bottom: 30px;
+
+    h1, h2 {
+        color: #F5B818;
+        font: 60px din;
+        margin: 30px 0;
+        text-transform: uppercase;
+    }
+
+    p, ul, ol {
+        color: #FFEF9E;
+        font: 20px DroidSerif;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    p.white_text {
+        color: white;
+    }
+
+    a {
+        color: #FFEF9E;
+        text-decoration: underline;
+    }
+
+    .p_with_margin {
+        p {
+            margin-bottom: 20px;
+        }
+    }
+
+    .nor_font {
+        font-family: NORTHWEST;
+        text-transform: none;
+    }
+}
+
 .main-m-w-2 {
-    max-width: 1430px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0;
     .form-wrapp {
         background-size: cover;
         background-position: center;
