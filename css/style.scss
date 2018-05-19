@@ -100,6 +100,9 @@ body {
                 transition: 0.3s;
                 text-transform: uppercase;
                 font-size: 20px;
+                &.active{
+                    color: #F5D99B;
+                }
                 &:hover {
                     color: #FFEF9E;
                 }
@@ -171,22 +174,26 @@ body {
 
 .slider-wrapper {
     margin-bottom: 10px;
+    
     .slider-init {
         .slide {
             outline: none;
-            background-position: center;
-            background-size: cover;
-            height: 461px;
-            position: relative;
-            &:before {
-                content: "";
-                display: block;
-                position: absolute;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                background-color: rgba(46, 46, 46, 0.1);
+            .image{
+                 opacity: 0.45;
+                background-position: center;
+                background-size: cover;
+                height: 461px;
+                position: relative;
+            }
+            &.bg-1{
+               background-color: rgb(247, 245, 225);
+                .image{
+                opacity: 1;
+                    }
+            }
+            &.bg-2{
+                
+                 background-color: rgb(46, 46, 46);
             }
         }
     }
@@ -215,6 +222,38 @@ body {
         }
         &.slick-next {
             right: 80px;
+        }
+    }
+    .slick-dots{
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        bottom: 50px;
+        transform: translateX(-50%);
+        li{
+            margin: 0 6px;
+            button{
+                width: 6px;
+                height: 6px;
+                outline: none;
+                display: block;
+                font-size: 0;
+                border-radius: 50%;
+                border: 2px solid rgba(237, 237, 228, 1);
+                background: rgba(237, 237, 228, 1);
+            }
+            &.slick-active{
+                
+                button{
+                    width: 9px;
+                    height: 9px;
+                    background: none;
+                }
+            }
         }
     }
 }
@@ -306,6 +345,66 @@ body {
                     }
                      &:last-child{
                         margin-left: 6px;
+                    }
+                }
+            }
+            button{
+                display: block;
+                width: 100%;
+                outline: none;
+                background: rgba(245,184,24,1);
+                color: #000;
+                font-family: NORTHWEST;
+                font-size: 29px;
+                border: none;
+            }
+        }
+    }
+}
+footer{
+    background: #000;
+    margin-top: 0;
+    padding: 35px 0;
+    .flex-footer{
+        display: flex;
+        align-items: flex-start;
+        ul{
+            margin: 0;
+            list-style: none;
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: flex-end;
+            li{
+                width: 50%;
+                padding: 5px 0;
+                a{
+                    color: #F5B818;
+                    font-family: NORTHWEST;
+                    font-size: 22px;
+                }
+                &.copy-right{
+                 
+                    width: 100%;
+                    max-width: 315px;
+                   margin: auto;
+                    margin-top: 118px;
+                    .soc{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .soc-item{
+                            display: block;
+                            margin: 5px;
+                        }
+                    }
+                    p{
+                        color: #F5D99B;
+                        text-align: center;
+                        font-family: NORTHWEST;
+                            font-size: 25px;
+                        
                     }
                 }
             }

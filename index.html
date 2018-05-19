@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>huckfinn</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    
     <link href="css/slick.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/media.css" rel="stylesheet">   
@@ -24,6 +25,12 @@
             <div class="right-image">
                 <img src="img/baner-part-3.png" class="img-responsive" alt="">
             </div> 
+            <button class="hidden-lg hidden-md hidden-sm navbar-toggle click-modal-xs">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
     </div>
     <div class="main-menu">
@@ -36,7 +43,7 @@
         <div class="collapse navbar-collapse" id="my-menu">
             <ul class="lvl-1-wrapp">
                 <li class="lvl-1">
-                    <a href="#">home</a>
+                    <a href="#" class="active">home</a>
                 </li>
                 <li class="lvl-1">
                     <a href="#">tickets</a>
@@ -121,8 +128,12 @@
     </div>
     <section class="slider-wrapper">
         <div class="slider-init">
-            <div class="slide" style="background-image: url(img/slide-2.webp)"></div>
-            <div class="slide" style="background-image: url(img/slide-1.webp)"></div>
+            <div class="slide bg-1">
+                <div class="image" style="background-image: url(img/slide-2.webp)"></div>
+            </div>
+            <div class="slide bg-2">
+                <div class="image" style="background-image: url(img/slide-1.webp)"></div>
+            </div>
         </div>
     </section>
     <div class="main-m-w">
@@ -137,8 +148,8 @@
             <p class="head-form">Sign up below for festival updates</p>
             <form>
                 <div class="row-inputs">
-                    <input type="text" placeholder="Name *">
-                    <input type="email" placeholder="Email *">
+                    <input type="text" placeholder="Name *" required>
+                    <input type="email" placeholder="Email *" required>
                 </div>
                 <input type="text" placeholder="Subject">
                 <textarea placeholder="Message"></textarea>
@@ -146,6 +157,174 @@
             </form>
         </div>
     
+    </div>
+    
+    <footer>
+        <div class="main-m-w">
+            <div class="flex-footer">
+                <ul>
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#">Meet the Huckers</a>
+                    </li>
+                    <li>
+                        <a href="#">THE LINE UP</a>
+                    </li>
+                    <li>
+                        <a href="#">Directions</a>
+                    </li>
+                    <li>
+                        <a href="#">tickets</a>
+                    </li>
+                    <li>
+                        <a href="#">PARK Map</a>
+                    </li>
+                    <li>
+                        <a href="#">attractions</a>
+                    </li>
+                    <li>
+                        <a href="#">Camping</a>
+                    </li>
+                    <li>
+                        <a href="#">event infO</a>
+                    </li>
+                    <li>
+                        <a href="#">Volunteering</a>
+                    </li>
+                    <li>
+                        <a href="#">cOmmunity</a>
+                    </li>
+                    <li>
+                        <a href="#">Handicap Accessibility</a>
+                    </li>
+                    <li>
+                        <a href="#">Sustainability</a>
+                    </li>
+                    
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">PURCHASE TicketS</a>
+                    </li>
+                    <li>
+                        <a href="#">MERCHANDISE</a>
+                    </li>
+                    <li>
+                        <a href="#">Ticketing FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">CART</a>
+                    </li>
+                    <li class="copy-right">
+                        <div class="soc">
+                            <a href="#" class="soc-item">
+                                <img src="img/fb.png" class="img-responsive" alt="">
+                            </a>
+                            <a href="#" class="soc-item">
+                                <img src="img/insta.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <p>© 2018 Huck Finn Jubilee</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+     <div class="modal fade" id="modal-menu">
+        <div class="modal-dialog">
+           <div class="main-menu">
+                
+                
+                <ul class="lvl-1-wrapp">
+                    <li class="lvl-1">
+                        <a href="#" class="active">home</a>
+                    </li>
+                    <li class="lvl-1">
+                        <a href="#">tickets</a>
+                    </li>
+                    <li class="lvl-1">
+                        <a href="#">the line up</a>
+                    </li>
+                    <li class="lvl-1">
+                        <a href="#">COMMUNITY</a>
+                        <div class="menu-sec-lvl">
+                            <div class="images-l-r">
+                                <ul>
+                                    <li>
+                                        <a href="#">comming soon</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">volunteers</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">vendors</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">partners</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="lvl-1">
+                        <a href="#">EVENT INFO</a>
+                        <div class="menu-sec-lvl">
+                            <div class="images-l-r">
+                                <ul>
+                                    <li>
+                                        <a href="#">meet the huckers</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">travel &amp; accomidations</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">camping</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">map</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">volunteering</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">handicap</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">accessibility</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="lvl-1">
+                        <a href="#">ATTRACTIONS</a>
+                        <div class="menu-sec-lvl">
+                            <div class="images-l-r">
+                                <ul>
+                                    <li>
+                                        <a href="#">the marketplace</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">kidzone</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">fishing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">peddleboat</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+                       
+                  
+        </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

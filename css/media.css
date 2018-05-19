@@ -1,3 +1,98 @@
+@media (max-width: 1199px) {
+  .slider-wrapper .slider-init .slide .image {
+    height: 350px; }
 
+  .flex-insta-head {
+    align-items: flex-start;
+    margin-bottom: 6px; }
+    .flex-insta-head img {
+      max-width: 300px; } }
+@media (max-width: 991px) {
+  .flex-insta-head img {
+    max-width: 235px; }
+
+  .flex-insta-head p {
+    padding-top: 0;
+    line-height: 36px; }
+
+  .slider-wrapper .slick-arrow.slick-prev {
+    left: 40px; }
+
+  .slider-wrapper .slick-arrow.slick-next {
+    right: 40px; }
+
+  .main-menu .lvl-1-wrapp .lvl-1 a {
+    padding: 10px 15px 15px 15px; }
+
+  .main-m-w-2 .form-wrapp {
+    padding: 50px 30px; }
+
+  footer .flex-footer {
+    display: block; }
+
+  footer .flex-footer ul {
+    width: 100%; }
+
+  footer .flex-footer ul li.copy-right {
+    margin-top: 50px; } }
+@media (max-width: 767px) {
+  .flex-insta-head img:first-child {
+    display: none; }
+
+  .flex-insta-head {
+    display: block; }
+
+  .main-m-w-2 {
+    padding: 0 15px; }
+
+  .main-m-w {
+    padding: 0 15px; }
+
+  .main-m-w .image-cover .left-image {
+    bottom: 15px;
+    top: auto;
+    max-width: 115px;
+    left: 0; }
+
+  .main-m-w .image-cover .right-image {
+    bottom: 11px;
+    top: auto;
+    max-width: 182px;
+    right: -9px; }
+
+  .main-m-w .image-cover {
+    height: 303px; }
+
+  .main-m-w .image-cover .center-image {
+    max-width: 220px; }
+
+  .main-menu {
+    min-height: 45px; }
+
+  .navbar-toggle {
+    border: none;
+    right: 5px;
+    top: -14px; }
+
+  .navbar-toggle .icon-bar {
+    background: #fff; }
+
+  .main-menu .lvl-1-wrapp {
+    display: block; }
+
+  .main-menu {
+    display: none; }
+
+  #modal-menu {
+    background: rgba(0, 0, 0, 0.94); }
+    #modal-menu .modal-dialog {
+      max-width: 290px;
+      margin: 60px auto 20px auto; }
+    #modal-menu .main-menu {
+      display: block; }
+      #modal-menu .main-menu .lvl-1-wrapp .lvl-1 a {
+        color: #FFEF9E; }
+        #modal-menu .main-menu .lvl-1-wrapp .lvl-1 a.active {
+          color: #F5B818; } }
 
 /*# sourceMappingURL=media.css.map */
