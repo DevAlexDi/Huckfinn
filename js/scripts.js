@@ -17,7 +17,20 @@ $(document).ready(function () {
         
     });
     
+    $('.close-menu').click(function(){
+        $('#modal-menu').modal('hide');
+    });
     
+    $('.xs-open-close-icon').click(function(){
+        
+        if(!$(this).parents('.xs-open-close').hasClass('opened')){
+            $(this).parents('.xs-open-close').addClass('opened');
+            
+        }
+        else{
+            $(this).parents('.xs-open-close').removeClass('opened');
+        }
+    });
     
 });
 
