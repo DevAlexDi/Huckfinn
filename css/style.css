@@ -264,6 +264,38 @@ body {
       .huckfinn_container .line_up_wrap div#line_up14, .huckfinn_container .line_up_wrap div#line_up15 {
         width: 50%; }
 
+#line_up_modal {
+  background: rgba(0, 0, 0, 0.3); }
+  #line_up_modal .modal-dialog {
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    margin-top: -300px;
+    left: 50%;
+    margin-left: -500px;
+    background: #000;
+    padding: 30px; }
+  #line_up_modal .line_up_modal_wrap {
+    display: flex;
+    align-items: center;
+    height: 100%; }
+    #line_up_modal .line_up_modal_wrap .left {
+      width: 40%;
+      flex-shrink: 0; }
+      #line_up_modal .line_up_modal_wrap .left h3 {
+        color: #F5B818;
+        font: 30px NORTHWEST;
+        margin-top: 30px; }
+    #line_up_modal .line_up_modal_wrap .text {
+      width: 60%;
+      padding-left: 10%;
+      flex-shrink: 0;
+      height: 100%;
+      overflow: auto;
+      color: #F5B818;
+      font: 14px DroidSerif; }
+
 .main-m-w-2 {
   max-width: 100%;
   margin: 0 auto;

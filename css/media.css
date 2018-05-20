@@ -15,7 +15,11 @@
     font-size: 60px; }
 
   .huckfinn_container .line_up_wrap div#line_up2 {
-    font-size: 52px; } }
+    font-size: 52px; }
+
+  #line_up_modal .modal-dialog {
+    width: 900px;
+    margin-left: -450px; } }
 @media (max-width: 991px) {
   .flex-insta-head img {
     max-width: 235px; }
