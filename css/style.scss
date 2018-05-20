@@ -312,6 +312,42 @@ body {
         font-family: NORTHWEST;
         text-transform: none;
     }
+
+    .line_up_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        div {
+            color: #F5B818;
+            font-family: NORTHWEST;
+            cursor: pointer;
+            text-align: center;
+            line-height: 1.2;
+            font-size: 35px;
+
+            &#line_up1, &#line_up2, &#line_up3, &#line_up13, &#line_up16, &:last-child {
+                width: 100%;
+            }
+            &#line_up1 {
+                font-size: 65px;
+            }
+            &#line_up2 {
+                font-size: 55px;
+            }
+            &#line_up3 {
+                font-size: 50px;
+            }
+            &#line_up4, &#line_up5, &#line_up6,
+            &#line_up7, &#line_up8, &#line_up9,
+            &#line_up10, &#line_up11, &#line_up12 {
+                width: 33%;
+            }
+            &#line_up14, &#line_up15 {
+                width: 50%;
+            }
+        }
+    }
 }
 
 .main-m-w-2 {

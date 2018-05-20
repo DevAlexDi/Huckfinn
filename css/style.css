@@ -240,6 +240,29 @@ body {
   .huckfinn_container .nor_font {
     font-family: NORTHWEST;
     text-transform: none; }
+  .huckfinn_container .line_up_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .huckfinn_container .line_up_wrap div {
+      color: #F5B818;
+      font-family: NORTHWEST;
+      cursor: pointer;
+      text-align: center;
+      line-height: 1.2;
+      font-size: 35px; }
+      .huckfinn_container .line_up_wrap div#line_up1, .huckfinn_container .line_up_wrap div#line_up2, .huckfinn_container .line_up_wrap div#line_up3, .huckfinn_container .line_up_wrap div#line_up13, .huckfinn_container .line_up_wrap div#line_up16, .huckfinn_container .line_up_wrap div:last-child {
+        width: 100%; }
+      .huckfinn_container .line_up_wrap div#line_up1 {
+        font-size: 65px; }
+      .huckfinn_container .line_up_wrap div#line_up2 {
+        font-size: 55px; }
+      .huckfinn_container .line_up_wrap div#line_up3 {
+        font-size: 50px; }
+      .huckfinn_container .line_up_wrap div#line_up4, .huckfinn_container .line_up_wrap div#line_up5, .huckfinn_container .line_up_wrap div#line_up6, .huckfinn_container .line_up_wrap div#line_up7, .huckfinn_container .line_up_wrap div#line_up8, .huckfinn_container .line_up_wrap div#line_up9, .huckfinn_container .line_up_wrap div#line_up10, .huckfinn_container .line_up_wrap div#line_up11, .huckfinn_container .line_up_wrap div#line_up12 {
+        width: 33%; }
+      .huckfinn_container .line_up_wrap div#line_up14, .huckfinn_container .line_up_wrap div#line_up15 {
+        width: 50%; }
 
 .main-m-w-2 {
   max-width: 100%;
